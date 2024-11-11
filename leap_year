@@ -1,0 +1,5 @@
+your_year = int(input())
+if your_year % 4 == 0:
+    print(f"Year {your_year} is leap.")
+else:
+    print(f"Your {your_year} is not leap.")
