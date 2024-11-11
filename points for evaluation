@@ -1,0 +1,13 @@
+points = int(input("Enter your points: "))
+if 84 <= points <= 100:
+    print("Excellent!")
+elif 67 <= points < 84:
+    print("Very good")
+elif 50 <= points < 67:
+    print("Good")
+elif 30 <= points < 50:
+    print("Average")
+elif 0 <= points < 30:
+    print("Bad")
+else:
+    print("Incorrect input")
