@@ -1,0 +1,13 @@
+number_of_people = int(input())
+capacity = int(input())
+
+# Calculate full courses and remaining people
+full_courses = number_of_people // capacity
+last_course = number_of_people % capacity
+import math
+if capacity >= number_of_people:
+    print(math.ceil(capacity))
+elif last_course == 0:
+    print(math.ceil(number_of_people / capacity))
+else:
+    print(math.ceil(number_of_people / capacity))
